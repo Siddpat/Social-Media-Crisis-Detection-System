@@ -5,15 +5,15 @@ A comprehensive pipeline for detecting mental health crises in social media post
 
 ## Project Overview
 This system helps identify at-risk individuals by analyzing social media posts through three key phases:
-1. **Data Extraction**: Collects mental health-related posts from Reddit/Twitter
+1. **Data Extraction**: Collects mental health-related posts from Reddit
 2. **Risk Assessment**: Classifies posts by sentiment and crisis level
 3. **Geospatial Analysis**: Maps crisis concentrations and identifies high-risk areas
 
 ## 🛠Features
 ### Task 1: Data Pipeline
-- API integration for Reddit & Twitter
+- API integration for Reddit using Reddit API
 - 15-keyword filter (`depression`, `suicidal`, etc.)
-- Advanced text cleaning pipeline
+- Advanced text cleaning pipeline including removal of emojis.
 - CSV/JSON output with engagement metrics
 
 ### Task 2: Risk Classification
